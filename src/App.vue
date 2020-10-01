@@ -1,14 +1,41 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <app-header></app-header>
     <router-view/>
   </div>
 </template>
 
+<script>
+import AppHeader from './components/AppHeader.vue';
+
+export default {
+  name: "App",
+  components: {
+    AppHeader
+  }
+}
+</script>
+
 <style lang="scss">
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.cell {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
