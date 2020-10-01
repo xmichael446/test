@@ -28,8 +28,8 @@
         <section class="menu cell">
             <img src="../assets/logo.png" alt="Logo">
             <el-button class="menu__custom_button menu__custom_button--yellow" icon="el-icon-s-fold">Каталог</el-button>
-            <el-input class="menu__custom_input" placeholder="Хочу найти..." v-model="wanna_find">
-                <template slot="append"><i class="el-icon-search"></i></template>
+            <el-input class="menu__custom_input" autocomplete placeholder="Хочу найти..." v-model="wanna_find">
+                <template slot="append"><el-button icon="el-icon-search"></el-button></template>
             </el-input>
             <el-button class="menu__custom_button menu__custom_button--gray" icon="el-icon-s-fold">Каталог</el-button>
             <el-avatar style="background-color: purple;">A</el-avatar>
