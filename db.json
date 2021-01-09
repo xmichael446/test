@@ -1,8 +1,38 @@
-{
-  "tasks": [
-    {
-      "id": 1,
-      "link": "https://www.example.com/"
-    }
-  ]
+ {
+  "messages": {
+    "welcome": "Вас приветсвует бот канала @Unilecs! \uD83D\uDDA5 Чем я могу вам помочь?\uD83D\uDD16",
+    "help": "У меня есть несколько функций! \nНачнем по порядку :\n- *Список задач:* я отправлю Вам ссылку на пост с задачами нашего канала.\n- *Поиск:* я нахожу задачи по названию или номеру и отправляю Вам ссылки на посты с ними.\n- *Книги:* я отправляю вам ссылки на посты с подборками книг от нашего канала.\n- *Получить задачу по сложности:* вы выбираете сложность задачи я отправляю вам ссылку на случайную задачу данной сложности.\n- *Отправить решение:* в следуйщем сообщении вы отправляете свое решение последней опубликованной  задачи на нашем канале (@UniLecs).\n- *Отправить отзыв:* в следующем сообщеении вы отправляете свой отзыв по поводу моей работы, публикации задач на канале @UniLecs и т.д.\n\n**P.S.** Конечно же, лучше всего ознакомиться с функциями можно, опробовав их все\uD83D\uDE1C",
+    "books": "*\uD83D\uDCDA Подборка книг*\\n \n*Основы. Часть 1.*\nhttp://telegra.ph/UniLecsBooks-OsnovyCHast1-07-06 \\n\n*Основы. Часть 2.*\nhttps://telegra.ph/UniLecs-Books-Osnovy-CHast-2-08-24 \\n\n*Подборка книг по C# / .Net*\nhttps://telegra.ph/UniLecs-Books-C--Net-10-28 \\n\n*Алгоритмы. Часть 1.*\nhttps://telegra.ph/UniLecs-Books-Algoritmy---CHast-1-11-19",
+    "about": "Я - бот канала @UniLecs. Предоставляю автоматизированный способ получения задач и не \nтолько. Есть вопрос? Вам сюда -> @albert_davletov",
+  },
+   "tasks": [
+     {
+       "id": 1,
+       "name": "Все ли символы в строке встречаются один раз",
+       "announcement": "http://telegra.ph/Task-1-Vse-li-simvoly-v-stroke-vstrechayutsya-odin-raz-09-20",
+       "solution": "http://telegra.ph/Task-1-Vse-li-simvoly-v-stroke-vstrechayutsya-odin-raz-09-20",
+       "complexity": 10,
+       "tags": [
+         "string",
+         "char",
+         "duplicates"
+       ]
+     },
+     {
+       "id": 2,
+       "name": "Найти минимальный элемент в отсортированном по возрастанию и циклически сдвинутом массиве",
+       "announcement": "http://telegra.ph/Task-2-Najti-minimalnyj-ehlement-v-otsortirovannom-po-vozrastaniyu-i-ciklicheski-sdvinutom-massive-09-20",
+       "solution": "http://telegra.ph/Task-2-Najti-minimalnyj-ehlement-v-otsortirovannom-po-vozrastaniyu-i-ciklicheski-sdvinutom-massive-09-20",
+       "complexity": null,
+       "tags": []
+     },
+     {
+       "id": 3,
+       "name": "Заменить все пробелы в строке символами '%20'",
+       "announcement": "http://telegra.ph/Task-3-Zamenit-vse-probely-v-stroke-simvolami-20-09-21",
+       "solution": "http://telegra.ph/Task-3-Zamenit-vse-probely-v-stroke-simvolami-20-09-21",
+       "complexity": null,
+       "tags": []
+     }
+   ]
 }
