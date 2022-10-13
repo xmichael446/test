@@ -10,7 +10,7 @@
           "name": "testnet",
           "chainID": "devops",
           "lcd": "http://116.203.18.207:1317/",
-          "walletconnectID": 1
+          "walletconnectID": 0
         }
       }
 }
