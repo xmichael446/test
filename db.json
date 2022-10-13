@@ -1,42 +1,16 @@
 {
-  "links": {
-    "books": "*\uD83D\uDCDA Подборка книг*\\n \n*Основы. Часть 1.*\nhttp://telegra.ph/UniLecsBooks-OsnovyCHast1-07-06 \\n\n*Основы. Часть 2.*\nhttps://telegra.ph/UniLecs-Books-Osnovy-CHast-2-08-24 \\n\n*Подборка книг по C# / .Net*\nhttps://telegra.ph/UniLecs-Books-C--Net-10-28 \\n\n*Алгоритмы. Часть 1.*\nhttps://telegra.ph/UniLecs-Books-Algoritmy---CHast-1-11-19",
-    "all_tasks": "*📋 Список задач*\n https://telegra.ph/Unique-Lectures-06-13"
-  },
-  "tasks": [
-    {
-      "id": 1,
-      "name": "Все ли символы в строке встречаются один раз",
-      "announcement": "http://telegra.ph/Task-1-Vse-li-simvoly-v-stroke-vstrechayutsya-odin-raz-09-20",
-      "solution": "http://telegra.ph/Task-1-Vse-li-simvoly-v-stroke-vstrechayutsya-odin-raz-09-20",
-      "complexity": 10,
-      "tags": [
-        "string",
-        "char",
-        "duplicates"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Найти минимальный элемент в отсортированном по возрастанию и циклически сдвинутом массиве",
-      "announcement": "http://telegra.ph/Task-2-Najti-minimalnyj-ehlement-v-otsortirovannom-po-vozrastaniyu-i-ciklicheski-sdvinutom-massive-09-20",
-      "solution": "http://telegra.ph/Task-2-Najti-minimalnyj-ehlement-v-otsortirovannom-po-vozrastaniyu-i-ciklicheski-sdvinutom-massive-09-20",
-      "complexity": null,
-      "tags": []
-    },
-    {
-      "id": 3,
-      "name": "Заменить все пробелы в строке символами '%20'",
-      "announcement": "http://telegra.ph/Task-3-Zamenit-vse-probely-v-stroke-simvolami-20-09-21",
-      "solution": "http://telegra.ph/Task-3-Zamenit-vse-probely-v-stroke-simvolami-20-09-21",
-      "complexity": null,
-      "tags": []
-    }
-  ],
-  "categories": {
-    "Легкие": "*👨🏻‍💼 Легкие задачи:*\n http://telegra.ph/UniLecsLight-07-10",
-    "Средние": "*👨🏻‍💻 Задачи среднего уровня:*\n http://telegra.ph/UniLecsMedium-07-10",
-    "Сложные": "*👨🏻‍🎓 Сложные задачи:*\n http://telegra.ph/UniLecsHard-07-10",
-    "Отмена": "Вы отменили поиск по категориям. Выберите следующее действие."
-  }
+    "chains.json": {
+        "mainnet": {
+          "name": "mainnet",
+          "chainID": "devops",
+          "lcd": "http://116.203.18.207:1317/",
+          "walletconnectID": 1
+        },
+        "testnet": {
+          "name": "mainnet",
+          "chainID": "devops",
+          "lcd": "http://116.203.18.207:1317/",
+          "walletconnectID": 1
+        }
+      }
 }
