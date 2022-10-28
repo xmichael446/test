@@ -24,32 +24,28 @@
          
       }
    },
-   "cw20":{
-      "contracts.json":{
-         "mainnet":{
-            
-         },
-         "testnet":{
-            
-         }
+   "cw20/contracts.json":{
+      "mainnet":{
+         
       },
-      "pairs.dex.json":{
-         "mainnet":{
-            
-         },
-         "testnet":{
-            
-         }
+      "testnet":{
+         
       }
    },
-   "ibc":{
-      "tokens.json":{
-         "mainnet":{
-            
-         },
-         "testnet":{
-            
-         }
+   "cw20/pairs.dex.json":{
+      "mainnet":{
+         
+      },
+      "testnet":{
+         
+      }
+   },
+   "ibc/tokens.json":{
+      "mainnet":{
+         
+      },
+      "testnet":{
+         
       }
    }
 }
