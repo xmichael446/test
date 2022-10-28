@@ -42,6 +42,15 @@
             "testnet":{
                 
             }
+        },
+        {
+            "id":"tokens.json",
+            "mainnet":{
+                
+            },
+            "testnet":{
+                
+            }
         }
     ],
     "ibc":[
