@@ -71,6 +71,6 @@
             "is_token_liquid":true,
             "name":"US Dollar",
             "symbol":"UST"
-        },
+        }
     ]
 }
