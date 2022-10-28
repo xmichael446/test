@@ -1,49 +1,76 @@
 {
-  "chains.json": {
-    "mainnet": {
-      "name": "mainnet",
-      "chainID": "devops",
-      "lcd": "http://116.203.18.207:1317/",
-      "walletconnectID": 1
+    "chains.json":{
+        "mainnet":{
+            "name":"mainnet",
+            "chainID":"devops",
+            "lcd":"http://116.203.18.207:1317/",
+            "walletconnectID":1
+        },
+        "testnet":{
+            "name":"testnet",
+            "chainID":"devops",
+            "lcd":"http://116.203.18.207:1317/",
+            "walletconnectID":0
+        }
     },
-    "testnet": {
-      "name": "testnet",
-      "chainID": "devops",
-      "lcd": "http://116.203.18.207:1317/",
-      "walletconnectID": 0
-    }
-  },
-  "contracts.json": {
-    "mainnet": {
+    "contracts.json":{
+        "mainnet":{
+            
+        },
+        "classic":{
+            
+        },
+        "testnet":{
+            
+        }
     },
-    "classic": {
-    },
-    "testnet": {
-    }
-  },
-  "cw20": [
-    {
-      "id": "pairs.dex.json",
-      "mainnet": {
-      },
-      "testnet": {
-      }
-    },
-    {
-      "id": "contracts.json",
-      "mainnet": {
-      },
-      "testnet": {
-      }
-    }
-  ],
-  "ibc": [
-    {
-      "id": "tokens.json",
-      "mainnet": {
-      },
-      "testnet": {
-      }
-    }
-  ]
+    "cw20":[
+        {
+            "id":"pairs.dex.json",
+            "mainnet":{
+                
+            },
+            "testnet":{
+                
+            }
+        },
+        {
+            "id":"contracts.json",
+            "mainnet":{
+                
+            },
+            "testnet":{
+                
+            }
+        }
+    ],
+    "ibc":[
+        {
+            "id":"tokens.json",
+            "mainnet":{
+                
+            },
+            "testnet":{
+                
+            }
+        }
+    ],
+    "tokens":[
+        {
+            "contract_addr":"uuzst",
+            "decimals":6,
+            "id":0,
+            "is_token_liquid":true,
+            "name":"Uzbekistan Som",
+            "symbol":"UZST"
+        },
+        {
+            "contract_addr":"uust",
+            "decimals":6,
+            "id":0,
+            "is_token_liquid":true,
+            "name":"US Dollar",
+            "symbol":"UST"
+        },
+    ]
 }
