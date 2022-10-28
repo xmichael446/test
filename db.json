@@ -4,12 +4,14 @@
             "name":"mainnet",
             "chainID":"devops",
             "lcd":"http://116.203.18.207:1317/",
+            "api": "http://116.203.18.207:26657/",
             "walletconnectID":1
         },
         "testnet":{
             "name":"testnet",
             "chainID":"devops",
             "lcd":"http://116.203.18.207:1317/",
+            "api": "http://116.203.18.207:26657/",
             "walletconnectID":0
         }
     },
