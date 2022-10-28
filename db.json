@@ -1,51 +1,49 @@
 {
-   "chains.json":{
-      "mainnet":{
-         "name":"mainnet",
-         "chainID":"devops",
-         "lcd":"http://116.203.18.207:1317/",
-         "walletconnectID":1
+  "chains.json": {
+    "mainnet": {
+      "name": "mainnet",
+      "chainID": "devops",
+      "lcd": "http://116.203.18.207:1317/",
+      "walletconnectID": 1
+    },
+    "testnet": {
+      "name": "testnet",
+      "chainID": "devops",
+      "lcd": "http://116.203.18.207:1317/",
+      "walletconnectID": 0
+    }
+  },
+  "contracts.json": {
+    "mainnet": {
+    },
+    "classic": {
+    },
+    "testnet": {
+    }
+  },
+  "cw20": [
+    {
+      "id": "pairs.dex.json",
+      "mainnet": {
       },
-      "testnet":{
-         "name":"testnet",
-         "chainID":"devops",
-         "lcd":"http://116.203.18.207:1317/",
-         "walletconnectID":0
+      "testnet": {
       }
-   },
-   "contracts.json":{
-      "mainnet":{
-         
+    },
+    {
+      "id": "contracts.json",
+      "mainnet": {
       },
-      "classic":{
-         
-      },
-      "testnet":{
-         
+      "testnet": {
       }
-   },
-   "cw20/contracts.json":{
-      "mainnet":{
-         
+    }
+  ],
+  "ibc": [
+    {
+      "id": "tokens.json",
+      "mainnet": {
       },
-      "testnet":{
-         
+      "testnet": {
       }
-   },
-   "cw20/pairs.dex.json":{
-      "mainnet":{
-         
-      },
-      "testnet":{
-         
-      }
-   },
-   "ibc/tokens.json":{
-      "mainnet":{
-         
-      },
-      "testnet":{
-         
-      }
-   }
+    }
+  ]
 }
