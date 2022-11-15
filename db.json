@@ -25,7 +25,7 @@
   },
   "cw20": [
     {
-      "id": "pairs.dex.json",
+      "id": "tokens.json",
       "mainnet": {
         "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9": {
           "protocol": "Awesine",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "id": "contracts.json",
+      "id": "pairs.dex.json",
       "mainnet": {
       },
       "testnet": {
