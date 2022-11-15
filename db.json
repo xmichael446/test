@@ -1,87 +1,84 @@
 {
-    "chains.json":{
-        "mainnet":{
-            "name":"mainnet",
-            "chainID":"devops",
-            "lcd":"http://116.203.18.207:1317/",
-            "api": "http://localhost:3060/",
-            "walletconnectID":1
-        },
-        "testnet":{
-            "name":"testnet",
-            "chainID":"devops",
-            "lcd":"http://116.203.18.207:1317/",
-            "api": "http://localhost:3060/",
-            "walletconnectID":0
-        }
+  "chains.json": {
+    "mainnet": {
+      "name": "mainnet",
+      "chainID": "devops",
+      "lcd": "http://116.203.18.207:1317/",
+      "api": "http://localhost:3060/",
+      "walletconnectID": 1
     },
-    "contracts.json":{
-        "mainnet":{
-            
-        },
-        "classic":{
-            
-        },
-        "testnet":{
-            
-        }
+    "testnet": {
+      "name": "testnet",
+      "chainID": "devops",
+      "lcd": "http://116.203.18.207:1317/",
+      "api": "http://localhost:3060/",
+      "walletconnectID": 0
+    }
+  },
+  "contracts.json": {
+    "mainnet": {
     },
-    "cw20":[
-        {
-            "id":"pairs.dex.json",
-            "mainnet":{
-                
-            },
-            "testnet":{
-                
-            }
-        },
-        {
-            "id":"contracts.json",
-            "mainnet":{
-                
-            },
-            "testnet":{
-                
-            }
-        },
-        {
-            "id":"tokens.json",
-            "mainnet":{
-                
-            },
-            "testnet":{
-                
-            }
+    "classic": {
+    },
+    "testnet": {
+    }
+  },
+  "cw20": [
+    {
+      "id": "pairs.dex.json",
+      "mainnet": {
+      },
+      "testnet": {
+      }
+    },
+    {
+      "id": "contracts.json",
+      "mainnet": {
+      },
+      "testnet": {
+      }
+    },
+    {
+      "id": "tokens.json",
+      "mainnet": {
+      },
+      "testnet": {
+        "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9": {
+          "protocol": "Awesine",
+          "symbol": "AWSM",
+          "name": "Awesome token bla bla bla",
+          "token": "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9",
+          "icon": "https://raw.githubusercontent.com/Y-Foundry-Dao/brand-assets/main/contract/pisco-1/cw20-yfd.svg",
+          "decimals": 6
         }
-    ],
-    "ibc":[
-        {
-            "id":"tokens.json",
-            "mainnet":{
-                
-            },
-            "testnet":{
-                
-            }
-        }
-    ],
-    "tokens":[
-        {
-            "contract_addr":"uuzst",
-            "decimals":6,
-            "id":0,
-            "is_token_liquid":true,
-            "name":"Uzbekistan Som",
-            "symbol":"UZST"
-        },
-        {
-            "contract_addr":"uust",
-            "decimals":6,
-            "id":0,
-            "is_token_liquid":true,
-            "name":"US Dollar",
-            "symbol":"UST"
-        }
-    ]
+      }
+    }
+  ],
+  "ibc": [
+    {
+      "id": "tokens.json",
+      "mainnet": {
+      },
+      "testnet": {
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "contract_addr": "uuzst",
+      "decimals": 6,
+      "id": 0,
+      "is_token_liquid": true,
+      "name": "Uzbekistan Som",
+      "symbol": "UZST"
+    },
+    {
+      "contract_addr": "uust",
+      "decimals": 6,
+      "id": 0,
+      "is_token_liquid": true,
+      "name": "US Dollar",
+      "symbol": "UST"
+    }
+  ]
 }
