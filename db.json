@@ -2,14 +2,14 @@
   "chains.json": {
     "mainnet": {
       "name": "mainnet",
-      "chainID": "devops",
+      "chainID": "umma-1",
       "lcd": "http://116.203.18.207:1317/",
       "api": "http://localhost:3060/",
       "walletconnectID": 1
     },
     "testnet": {
       "name": "testnet",
-      "chainID": "devops",
+      "chainID": "umma-1",
       "lcd": "http://116.203.18.207:1317/",
       "api": "http://localhost:3060/",
       "walletconnectID": 0
@@ -83,28 +83,12 @@
   ],
   "tokens": [
     {
-      "contract_addr": "uuzst",
+      "contract_addr": "aumma",
       "decimals": 6,
       "id": 0,
       "is_token_liquid": true,
-      "name": "Uzbekistan Som",
-      "symbol": "UZST"
-    },
-    {
-      "contract_addr": "uust",
-      "decimals": 6,
-      "id": 1,
-      "is_token_liquid": true,
-      "name": "US Dollar",
-      "symbol": "UST"
-    },
-    {
-      "contract_addr": "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9",
-      "decimals": 6,
-      "id": 2,
-      "is_token_liquid": false,
-      "name": "Awesine",
-      "symbol": "AWSM"
+      "name": "Umma Coin",
+      "symbol": "UMMA"
     }
   ]
 }
