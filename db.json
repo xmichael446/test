@@ -3,14 +3,14 @@
     "mainnet": {
       "name": "mainnet",
       "chainID": "umma-1",
-      "lcd": "http://116.203.18.207:1317/",
+      "lcd": "http://135.125.3.192:1317/",
       "api": "http://localhost:3060/",
       "walletconnectID": 1
     },
     "testnet": {
       "name": "testnet",
       "chainID": "umma-1",
-      "lcd": "http://116.203.18.207:1317/",
+      "lcd": "http://135.125.3.192:1317/",
       "api": "http://localhost:3060/",
       "walletconnectID": 0
     }
@@ -27,18 +27,8 @@
     {
       "id": "contracts.json",
       "mainnet": {
-        "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9": {
-          "protocol": "Awesine",
-          "name": "Awesome",
-          "icon": "https://raw.githubusercontent.com/Y-Foundry-Dao/brand-assets/main/contract/pisco-1/cw20-yfd.svg"
-        }
       },
       "testnet": {
-        "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9": {
-          "protocol": "Awesine",
-          "name": "Awesome",
-          "icon": "https://raw.githubusercontent.com/Y-Foundry-Dao/brand-assets/main/contract/pisco-1/cw20-yfd.svg"
-        }
       }
     },
     {
@@ -51,24 +41,8 @@
     {
       "id": "tokens.json",
       "mainnet": {
-        "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9": {
-          "protocol": "Awesine",
-          "symbol": "AWSM",
-          "name": "Awesome token bla bla bla",
-          "token": "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9",
-          "icon": "https://raw.githubusercontent.com/Y-Foundry-Dao/brand-assets/main/contract/pisco-1/cw20-yfd.svg",
-          "decimals": 6
-        }
       },
       "testnet": {
-        "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9": {
-          "protocol": "Awesine",
-          "symbol": "AWSM",
-          "name": "Awesome token bla bla bla",
-          "token": "umma1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq0jtua9",
-          "icon": "https://raw.githubusercontent.com/Y-Foundry-Dao/brand-assets/main/contract/pisco-1/cw20-yfd.svg",
-          "decimals": 6
-        }
       }
     }
   ],
